@@ -1,0 +1,22 @@
+:root {
+  --main-colour: #fc7f7d;
+  --button-colour: #a53332;
+  --input-colour: #eef0f5;
+  --sidebar: 400px;
+  --border-radius: 20px;
+  --padding-input: 15px 40px;
+}
+
+body,
+html {
+  box-sizing: border-box;
+}
+
+input,
+button,
+input:hover,
+input:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}

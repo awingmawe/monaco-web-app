@@ -1,0 +1,54 @@
+.main-container {
+  background-color: var(--main-colour);
+  min-height: 100vh;
+}
+
+.nav-header {
+  min-height: 10vh;
+  padding: 0px 3rem;
+}
+
+.logo-telkom {
+  width: 150px;
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+}
+
+.inner-container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.signup-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 500px;
+}
+
+.signup-box form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn-signIn,
+.signup-box input {
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  padding: var(--padding-input);
+}
+
+.signup-box input {
+  background: var(--input-colour);
+}
+
+.btn-signIn {
+  width: 100%;
+  background: var(--button-colour);
+  color: white;
+  cursor: pointer;
+}

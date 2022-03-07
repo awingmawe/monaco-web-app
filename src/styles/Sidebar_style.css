@@ -1,0 +1,13 @@
+.sidebar {
+  width: var(--sidebar);
+  margin-top: 10vh;
+  min-height: 90vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+.sidebar-inner {
+  padding: 20px 25px;
+}
