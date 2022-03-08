@@ -5,6 +5,7 @@ import "../styles/Info_style.css";
 import Person from "../assets/people.svg";
 import SMS from "../assets/sms-alert.svg";
 import Status from "../assets/status.svg";
+
 function Info(props) {
   return (
     <div className="info-container">

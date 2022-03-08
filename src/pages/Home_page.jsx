@@ -21,6 +21,7 @@ import "../styles/Default_style.css";
 import "../styles/Home_style.css";
 import Sidebar from "../components/Sidebar_com";
 import Info from "../components/Info_com";
+import MoreInfo from "../components/MoreInfo_com";
 
 export default function Home() {
   const [active, setActive] = useState(false);
@@ -124,6 +125,7 @@ export default function Home() {
         <div className="google-maps">
           {" "}
           <Info />
+          <MoreInfo />
         </div>
       </div>
     </div>
