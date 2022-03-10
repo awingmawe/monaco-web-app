@@ -4,17 +4,53 @@
   border-radius: var(--border-radius);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.info-container-odp {
+  background-color: white;
+  display: inline-block;
+  border-radius: var(--border-radius);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 .info-box {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: flex-end;
   padding: 10px;
-  padding-bottom: 0px;
+}
+.img-gamas-button {
+  width: 125px;
+  background: none;
+  padding: 10px 0px;
+}
+.img-gamas-button > img {
+  width: 100px;
+}
+
+.img-gamas-button:hover {
+  cursor: pointer;
+}
+
+.info-box-odp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
 }
 
 .info-inner {
   width: 450px;
+  padding: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #efefef;
+  border-radius: var(--border-radius);
+}
+.info-inner-odp {
+  width: 200px;
   padding: 10px 0px 0px 10px;
   display: flex;
   justify-content: center;
@@ -85,13 +121,30 @@
 .desc-detail {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-between;
   padding: 10px 0px;
 }
-
+.desc-detail-odp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.desc-detail-odp > img {
+  width: 100px;
+}
 .desc-detail > img {
-  width: 200px;
+  width: 100px;
+}
+
+.desc-detail-costumer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.desc-detail-costumer > img {
+  width: 100px;
 }
 
 .status {
@@ -101,11 +154,34 @@
   gap: 10px;
 }
 
+.status-odp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-odp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
 .status p {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 .status img {
+  width: 20px;
+}
+
+.status-odp p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.status-odp img {
   width: 20px;
 }
